@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 4</title>
+    <script type="text/Javascript" src="Evaluar.js"></script>
+    <script type="text/Javascript" src="Calcular.js"></script>
+    <script type="text/Javascript" src="Enviar.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    
+
+</head>
+
+<body>
+    <main>
+        <section>
+
+<header>
+    <h1>Practicas</h1>
+    <nav>
+        <ul>
+            <li><a href="principal.html">Inicio</a></li>
+            <li><a href="personal.html">Sobre mí</a></li>
+            <li><a href="Activdad2_JoseA.html">Práctica 2</a></li>
+            <li><a href="Practica3.html">Práctica 3</a></li>
+            <li><a href="prac4.html">Práctica 4</a></li>
+            <li><a href="Tabla.html">Práctica 5</a></li>
+            <li><a href="tareas.html">Pendientes</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+    <h1>Registro de calificaciones</h1>
+
+    <p>Ingrese su calificación: </p>
+    
+    <form>
+        Calificación: <input type="number" name="calificacion" id="calif"><br>
+
+    </form>
+    <br>
+    <button type="button" onclick="Evaluar()">Evaluar</button>
+    <p id="Evaluar"></p>
+    
+    <br>
+
+    <h1>Factorial reversivo</h1>
+    <p>Ingrese un numero: </p>
+
+    <form>
+        Num: <input type="number" name="numero" id="num"><br>
+
+    </form>
+    <button type="button" onclick="Calcular()">Calcular</button>
+    <p id="Calcular"></p>
+
+<br>
+
+    <h1>Form de datos</h1>
+    <p>Escriba sus datos a continuacion: </p> 
+
+    <form>
+        Nombre: <input type="text" name="nombre"  id="name"><br>
+        Correo: <input type="email" name="correo" id="mail"><br>
+        Edad: <input type="number" name="edad" id="age"><br>
+        <input type="radio" name="gender" id="male"> Male <br>
+        <input type="radio" name="gender" id="female"> Female<br>
+        <input type="radio" name="gender" id="other"> Otro <br>
+        Fecha de nacimiento <input type="date" name="nacimiento" id="date"><br>
+        Color favorito: <input type="color" name="color" id="color"><br>   
+    </form>
+
+    <button type="button" onclick="Enviar()">Enviar </button>
+    <p id="Enviar"></p>
+</section>
+</main>
+
+    <footer>
+        <p>&copy; 2024 José Alfonso Rodríguez Román. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html> 

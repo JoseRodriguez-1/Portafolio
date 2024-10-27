@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>hq<, initial-scale=1.0">
+    <title>Practica 5 - Javascript 2</title>
+    <link rel="stylesheet" href="Estilo.css" type="text/css">
+    <script src="evaluar_p5.js" defer></script>
+    <style>
+        table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead tr {
+    background-color: #f4f4f4;
+    text-align: left;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #e6f7f9;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+  .right-align {
+      text-align: right;
+  }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+<header>
+    <h1>Practicas</h1>
+    <nav>
+        <ul>
+            <li><a href="principal.html">Inicio</a></li>
+            <li><a href="personal.html">Sobre mí</a></li>
+            <li><a href="Activdad2_JoseA.html">Práctica 2</a></li>
+            <li><a href="Practica3.html">Práctica 4</a></li>
+            <li><a href="prac4.html">Práctica 4</a></li>
+            <li><a href="Tabla.html">Práctica 5</a></li>
+            <li><a href="tareas.html">Pendientes</a></li>
+        </ul>
+    </nav>
+</header>
+
+    
+<h1>Registro de videojuegos</h1>
+
+<form action="">
+    Nombre: <input type="text" id="nombre" required> <br>
+    Publisher: <input type="text" id="pub"  required> <br>
+
+    Correo: <input type="email" id="email" required> <br>
+    
+    <h2>Consola: </h2>
+    <input type="checkbox" id="xbox"> Xbox Series S/X <br>
+    <input type="checkbox" id="ps5"> Playstation 5 <br>
+    <input type="checkbox" id="switch"> Nintenddo Switch <br>
+    <input type="radio" name="estado" id="nuevo"> Nuevo <br>
+    <input type="radio" name="estado" id="usado"> Usado <br>
+    <input type="radio" name="estado" id="renew"> Revonado <br>
+    
+    <h2>Fecha de adquisicion: </h2>
+    <input type="date" id="fecha">
+
+    <h2>Color de la consola:  </h2>
+    <input type="color" id="color"> <br>
+
+    Rango de satisfacción con el producto: <input type="range" name="rango" id="range"> <br>
+    
+</form>
+<button type="button" onclick="registrar()">Registrar</button>
+
+<h1>Tabla de datos:</h1>
+
+<table id="tabla">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Publisher</th>
+            <th>Correo</th>
+            <th>Tipo de consola</th>
+            <th>Estado de la consola</th>
+            <th>Fecha de adquisicion</th>
+            <th>Color de la consola</th>
+            <th>Rango de satisfacción con el producto</th>
+        </tr>
+
+    </thead>
+</table>
+</section>
+</main>
+
+<footer>
+    <p>&copy; 2024 José Alfonso Rodríguez Román. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

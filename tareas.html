@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<main>
+    <section>
+    <header>
+        <h1>Seccion de pendientes</h1>
+        <nav>
+            <ul>
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="personal.html">Sobre mí</a></li>
+                <li><a href="Activdad2_JoseA.html">Práctica 2</a></li>
+                <li><a href="Practica3.html">Práctica 3</a></li>
+                <li><a href="prac4.html">Práctica 4</a></li>
+                <li><a href="Tabla.html">Práctica 5</a></li>
+                <li><a href="tareas.html">Pendientes</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="contenedor">
+        <h1>Lista de Tareas</h1>
+        <input type="text" id="nuevaTarea" placeholder="Escribe una tarea">
+        <button onclick="agregarTarea()">Añadir Tarea</button><br>
+        <br>
+   
+   
+   <div class="tareasp">     
+
+        <h2>Tareas Pendientes</h2>
+        <table id="listaPendientes">
+            <!-- Aquí se agregarán las tareas pendientes -->
+        </table>
+   
+   <div class="tareash">
+        <h2>Tareas Completadas</h2>
+        <table id="listaCompletadas">
+            <!-- Aquí se moverán las tareas completadas -->
+        </table>
+        
+    </div>
+
+    <button onclick="borrarLista()">Borrar Todas las Tareas</button><br>
+
+    <script src="agregar.js"></script>
+
+
+    
+        </thead>
+    </table>
+</section>
+</main>
+<footer>
+    <p>&copy; 2024 José Alfonso Rodríguez Román. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
